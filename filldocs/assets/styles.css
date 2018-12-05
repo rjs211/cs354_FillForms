@@ -1,0 +1,91 @@
+
+body {
+    background-color: #ced4da;
+    color: #212529;
+}
+
+a.nav-link {
+    color: white;
+}
+
+.certifs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.certif{
+    padding: 10px;
+    border : 2px solid #17a3b8;
+    padding-bottom: 40px;
+}
+
+.certif h2{
+   font-size:1.2em
+
+}
+
+.certif h2 a{
+    color: #003eb9;
+}
+
+.site-form{
+    margin-top: 60px;
+    margin-top: 20px;
+    border: 4px solid #17a3b8;
+     padding: 20px;
+
+}
+
+.site-form input, .site-form textarea{
+    display: block;
+    margin: 0px,0px,0px,20px;
+}
+
+
+.helptext, .helptext ul{
+    margin: 0 auto 20px;
+    color:#f30000;
+    font-size: 0.8em;
+    display: block;
+}
+
+.site-form li{
+    padding: 0px;
+    list-style-type: none;
+    color: #1746b8;
+
+}
+
+ul.errorlist li{
+    padding: 10px;
+    list-style-type: none;
+    border: 1px solid #ff5722;
+    color: #ff5722;
+    margin: 10px 0;
+}
+.errorlist li{
+    padding: 10px;
+    list-style-type: none;
+    border: 1px solid #ff5722;
+    color: #ff5722;
+    margin: 10px 0;
+}
+.errorlist{
+    padding:0;
+}
+.site-form input[type="submit"]{
+    background:#00dba0;
+    border:0;
+    color: #212529;
+    font-size: 1.2em;
+    border-radius: 4px;
+    margin: 10px 0;
+
+}
+
+.showpdf {
+    height=1000px;
+}
+
+

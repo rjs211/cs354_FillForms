@@ -1,0 +1,12 @@
+{% extends 'base_layout.html' %}
+{% load static%}
+{% block content %}
+<h1>{{ head1 }}</h1>
+
+<br>
+<br>
+<h2><a href="{% static pathodt %}"  download="{{ odtname }}" style=" border: 2px solid #0093C7; padding: 10px; margin: 20px; color: #026284;">Download Document</a>
+</h2>
+<br>
+<iframe class="showpdf" src="{% static path %}" style="height:1000px;width:800px; margin: 30px;"></iframe>
+{% endblock %}
